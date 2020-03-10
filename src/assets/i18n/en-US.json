@@ -1,0 +1,17 @@
+{
+  "test": "Hello World",
+  "login": {
+    "title": "Log in"
+  },
+  "form": {
+    "placeholder": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "label": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "submit": "Submit"
+  }
+}
