@@ -19,8 +19,7 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           parallel: true  
-          build: npm run build
-          start: npx serve build/ -l 3000
+          start: npm run start
           wait-on: http://localhost:3000
           browser: chrome
           headless: true
