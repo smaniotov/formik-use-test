@@ -18,11 +18,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v1
         with:
-          parallel: true  
           start: npm run start
           wait-on: http://localhost:3000
-          browser: chrome
-          headless: true
-          record: false
         env:
           SKIP_PREFLIGHT_CHECK: true
