@@ -1,16 +1,29 @@
 {
   "test": "Hello World",
   "login": {
-    "title": "Log in"
+    "title": "Log in",
+    "signUp": "Not signed? Click here to register"
+  },
+  "register": {
+    "title": "Register"
+  },
+  "dashboard": {
+    "title": "Dashboard"
   },
   "form": {
     "placeholder": {
       "username": "Username",
-      "password": "Password"
+      "password": "Password",
+      "name": "Name",
+      "email": "Email",
+      "confirmPassword": "Confirm Password"
     },
     "label": {
       "username": "Username",
-      "password": "Password"
+      "password": "Password",
+      "name": "Name",
+      "email": "Email",
+      "confirmPassword": "Confirm Password"
     },
     "submit": "Submit"
   }

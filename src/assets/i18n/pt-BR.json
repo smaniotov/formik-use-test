@@ -1,16 +1,31 @@
 {
   "test": "Hello World",
   "login": {
-    "title": "Entrar"
+    "title": "Entrar",
+    "signUp": "Não tem conta? Clique aqui para se registrar"
+  },
+  "register": {
+    "title": "Registro"
+  },
+  "dashboard": {
+    "title": "Dashboard"
   },
   "form": {
     "placeholder": {
       "username": "Username",
-      "password": "Senha"
+      "password": "Senha",
+      "name": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "confirmPassword": "Confirmar senha"
     },
     "label": {
       "username": "Username",
-      "password": "Senha"
+      "password": "Senha",
+      "name": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "confirmPassword": "Confirmar senha"
     },
     "submit": "Enviar"
   }

@@ -11,7 +11,7 @@ export const messagesProvider = {
 }
 
 export const useIntlProvider = () => {
-  const [locale, setLocale] = useState('en-US')
+  const [locale, setLocale] = useState('pt-BR')
   const messages = useMemo(() => {
     return messagesProvider[locale]
   }, [locale])
