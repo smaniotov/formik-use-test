@@ -20,9 +20,7 @@ jobs:
         with:
           parallel: true  
           build: npm run build
-          start: |
-            npm install -g serve
-            npx serve build/ -l 3000
+          start: npx serve build/ -l 3000
           wait-on: http://localhost:3000
           browser: chrome
           headless: true
