@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-18.04
+    container: cypress/browsers:node10.16.3-chrome80-ff73
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          parallel: true  
+          build: npm run build
+          start: npm start
+          wait-on: http://localhost:3000
+          browser: chrome
+          headless: true
+        env:
+          SKIP_PREFLIGHT_CHECK: true
