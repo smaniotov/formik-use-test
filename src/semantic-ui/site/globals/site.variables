@@ -1,0 +1,33 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@fontName: 'Cerebri Sans';
+@fontSmoothing: antialiased;
+
+@headerFont: @fontName, sans-serif;
+@pageFont: @fontName, sans-serif;
+
+@bold: 600;
+@normal: 300;
+
+
+/*******************************
+     Grid
+*******************************/
+
+@columnCount: 12;
+
+/*******************************
+     Colors
+*******************************/
+
+@primaryColor        : #06B2CF;
+@secondaryColor      : #12263F;
+@lightPrimaryColor   : #6DE8FC;
+@lightSecondaryColor : #5579A6;
+
+@primaryTextColor: @primaryColor;
+@secondaryTextColor: @secondaryColor;
+
+@linkColor: #06B2CF;

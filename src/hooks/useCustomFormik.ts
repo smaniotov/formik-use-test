@@ -8,6 +8,7 @@ export default <Values>(params: FormikConfig<Values>) => {
       name: fieldName,
       value: formik.values[fieldName],
       onChange: formik.handleChange,
+      errors: formik.errors[fieldName],
     }
   }
 

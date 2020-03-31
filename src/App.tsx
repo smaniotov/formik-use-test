@@ -1,9 +1,9 @@
-import React, { lazy, Suspense } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Layout } from 'components'
 import { RouteEnum } from 'enums'
+import { ApiContext, useApiProvider, useIntlProvider } from 'hooks'
+import React, { lazy, Suspense } from 'react'
 import { IntlProvider } from 'react-intl'
-import { useIntlProvider, ApiContext, useApiProvider } from 'hooks'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 const HomeAsync = lazy(() => import('views/Home'))
 const LoginAsync = lazy(() => import('views/Login'))
@@ -22,7 +22,7 @@ function App() {
             <Layout>
               <Suspense fallback={null}>
                 <Switch>
-                  <Route path={RouteEnum.Login} component={LoginAsync} />
+                  <Route path={RouteEnum.Home} component={LoginAsync} />
                   <Route path={RouteEnum.Register} component={RegisterAsync} />
                   <Route
                     path={RouteEnum.Dashboard}

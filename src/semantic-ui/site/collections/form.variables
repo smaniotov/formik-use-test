@@ -1,0 +1,8 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@labelMargin: 0 0 10px 0;
+@labelColor: #343434;
+@labelFontSize: 14px;
+@labelFontWeight: 400;
