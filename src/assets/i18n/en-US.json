@@ -1,8 +1,12 @@
 {
   "test": "Hello World",
   "login": {
-    "title": "Log in",
-    "signUp": "Not signed? Click here to register"
+    "title": "Sign in",
+    "subtitle": "Access to our platform",
+    "signUp": "Not signed? Click here to register",
+    "notSignedYet": "Not signed yet? ",
+    "registerHere": "Register here",
+    "forgotPassword": "Forgot password?"
   },
   "register": {
     "title": "Register"
@@ -25,6 +29,7 @@
       "email": "Email",
       "confirmPassword": "Confirm Password"
     },
-    "submit": "Submit"
+    "submit": "Submit",
+    "login": "Sign in"
   }
 }

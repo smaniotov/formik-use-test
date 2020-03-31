@@ -2,7 +2,11 @@
   "test": "Hello World",
   "login": {
     "title": "Entrar",
-    "signUp": "Não tem conta? Clique aqui para se registrar"
+    "subtitle": "Acesso para nossa plataforma",
+    "signUp": "Não tem conta? Clique aqui para se registrar",
+    "notSignedYet": "Não tem conta ainda? ",
+    "registerHere": "Registre-se aqui",
+    "forgotPassword": "Esqueceu a senha?"
   },
   "register": {
     "title": "Registro"
@@ -27,6 +31,7 @@
       "email": "Email",
       "confirmPassword": "Confirmar senha"
     },
-    "submit": "Enviar"
+    "submit": "Enviar",
+    "login": "Entrar"
   }
 }
